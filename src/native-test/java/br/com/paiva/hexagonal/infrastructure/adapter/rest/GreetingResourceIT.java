@@ -1,4 +1,4 @@
-package org.acme;
+package br.com.paiva.hexagonal.infrastructure.adapter.rest;
 
 import io.quarkus.test.junit.QuarkusIntegrationTest;
 

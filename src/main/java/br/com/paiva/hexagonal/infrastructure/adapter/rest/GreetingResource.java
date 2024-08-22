@@ -1,11 +1,12 @@
-package org.acme;
+package br.com.paiva.hexagonal.infrastructure.adapter.rest;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 
-@Path("/hello")
+// Adapter
+@Path("/greetings")
 public class GreetingResource {
 
     @GET
@@ -13,4 +14,5 @@ public class GreetingResource {
     public String hello() {
         return "Hello from Quarkus REST";
     }
+
 }

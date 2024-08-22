@@ -9,15 +9,23 @@ repositories {
 }
 
 dependencies {
+
+//    compileOnly 'org.projectlombok:lombok:1.18.34'
+
     implementation enforcedPlatform("${quarkusPlatformGroupId}:${quarkusPlatformArtifactId}:${quarkusPlatformVersion}")
     implementation 'io.quarkus:quarkus-rest-jackson'
     implementation 'io.quarkus:quarkus-arc'
     implementation 'io.quarkus:quarkus-rest'
+    implementation 'io.quarkus:quarkus-mongodb-panache'
+    implementation 'io.quarkus:quarkus-mongodb-client'
+//    implementation 'io.quarkiverse.jnosql:quarkus-jnosql-document-mongodb:3.3.0'
+    implementation 'io.quarkus:quarkus-smallrye-health:3.13.2'
+    implementation 'io.quarkus:quarkus-opentelemetry:3.13.2'
     testImplementation 'io.quarkus:quarkus-junit5'
     testImplementation 'io.rest-assured:rest-assured'
 }
 
-group 'org.acme'
+group 'br.com.paiva.hexagonal'
 version '1.0.0-SNAPSHOT'
 
 java {
