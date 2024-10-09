@@ -1,4 +1,4 @@
-package br.com.paiva.hexagonal.infrastructure.adapter.rest;
+package br.com.paiva.hexagonal.adapter.in.api;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;

@@ -1,7 +1,7 @@
-package br.com.paiva.hexagonal.infrastructure.adapter.mongo.entities;
+package br.com.paiva.hexagonal.adapter.out.database.mongodb.entities;
 
-import br.com.paiva.hexagonal.application.domain.model.Service;
-import br.com.paiva.hexagonal.application.domain.model.ServiceId;
+import br.com.paiva.hexagonal.domain.model.Service;
+import br.com.paiva.hexagonal.domain.model.ServiceId;
 import io.quarkus.mongodb.panache.PanacheMongoEntityBase;
 import io.quarkus.mongodb.panache.common.MongoEntity;
 

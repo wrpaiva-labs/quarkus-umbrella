@@ -20,7 +20,7 @@ dependencies {
     implementation 'io.quarkus:quarkus-mongodb-client'
 //    implementation 'io.quarkiverse.jnosql:quarkus-jnosql-document-mongodb:3.3.0'
     implementation 'io.quarkus:quarkus-smallrye-health:3.13.2'
-    implementation 'io.quarkus:quarkus-opentelemetry:3.13.2'
+//    implementation 'io.quarkus:quarkus-opentelemetry:3.13.2'
     testImplementation 'io.quarkus:quarkus-junit5'
     testImplementation 'io.rest-assured:rest-assured'
 }

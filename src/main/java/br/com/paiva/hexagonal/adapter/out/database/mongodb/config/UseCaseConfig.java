@@ -1,4 +1,4 @@
-package br.com.paiva.hexagonal.infrastructure.configurations;
+package br.com.paiva.hexagonal.adapter.out.database.mongodb.config;
 
 import jakarta.enterprise.context.ApplicationScoped;
 

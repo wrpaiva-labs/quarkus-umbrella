@@ -1,13 +1,11 @@
-package br.com.paiva.hexagonal.application.repositories;
+package br.com.paiva.hexagonal.adapter;
 
-import br.com.paiva.hexagonal.application.domain.model.Service;
-import br.com.paiva.hexagonal.application.domain.model.ServiceId;
+import br.com.paiva.hexagonal.domain.model.Service;
+import br.com.paiva.hexagonal.domain.model.ServiceId;
 
 import java.util.Optional;
 
-// interface adapter
 public interface ServiceRepository {
-
     Optional<Service> serviceOfId(ServiceId anId);
 
     Service serviceOfName(String name);

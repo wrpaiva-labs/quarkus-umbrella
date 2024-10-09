@@ -1,7 +1,7 @@
-package br.com.paiva.hexagonal.infrastructure.adapter.rest;
+package br.com.paiva.hexagonal.adapter.in.api;
 
-import br.com.paiva.hexagonal.application.port.in.CreateServiceUseCase;
-import br.com.paiva.hexagonal.application.port.in.GetServiceByIdUseCase;
+import br.com.paiva.hexagonal.port.in.CreateServiceUseCase;
+import br.com.paiva.hexagonal.port.in.GetServiceByIdUseCase;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;

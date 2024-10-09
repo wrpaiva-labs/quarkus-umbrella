@@ -1,4 +1,4 @@
-package br.com.paiva.hexagonal.application.exceptions;
+package br.com.paiva.hexagonal.exceptions;
 
 public class ValidationException extends RuntimeException {
     public ValidationException(String message) {

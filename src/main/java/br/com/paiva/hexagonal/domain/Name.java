@@ -1,6 +1,6 @@
-package br.com.paiva.hexagonal.application.domain;
+package br.com.paiva.hexagonal.domain;
 
-import br.com.paiva.hexagonal.application.exceptions.ValidationException;
+import br.com.paiva.hexagonal.exceptions.ValidationException;
 
 public record Name(String value) {
     public Name {

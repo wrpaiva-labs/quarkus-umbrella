@@ -1,7 +1,7 @@
-package br.com.paiva.hexagonal.infrastructure.adapter.mongo.repositories;
+package br.com.paiva.hexagonal.adapter.out.database.mongodb;
 
-import br.com.paiva.hexagonal.application.domain.model.Service;
-import br.com.paiva.hexagonal.infrastructure.adapter.mongo.entities.ServiceEntity;
+import br.com.paiva.hexagonal.adapter.out.database.mongodb.entities.ServiceEntity;
+import br.com.paiva.hexagonal.domain.model.Service;
 import io.quarkus.mongodb.panache.PanacheMongoRepositoryBase;
 import jakarta.enterprise.context.ApplicationScoped;
 

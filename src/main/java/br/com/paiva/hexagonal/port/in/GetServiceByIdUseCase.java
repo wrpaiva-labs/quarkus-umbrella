@@ -1,10 +1,11 @@
-package br.com.paiva.hexagonal.application.port.in;
+package br.com.paiva.hexagonal.port.in;
 
-import br.com.paiva.hexagonal.application.domain.model.ServiceId;
-import br.com.paiva.hexagonal.application.exceptions.ValidationException;
-import br.com.paiva.hexagonal.application.repositories.ServiceRepository;
-import br.com.paiva.hexagonal.application.port.UseCase;
+import br.com.paiva.hexagonal.adapter.ServiceRepository;
+import br.com.paiva.hexagonal.domain.model.ServiceId;
+import br.com.paiva.hexagonal.exceptions.ValidationException;
+import br.com.paiva.hexagonal.port.UseCase;
 import jakarta.enterprise.context.ApplicationScoped;
+
 import java.util.Objects;
 
 @ApplicationScoped

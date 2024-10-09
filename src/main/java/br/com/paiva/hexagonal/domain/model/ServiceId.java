@@ -1,6 +1,7 @@
-package br.com.paiva.hexagonal.application.domain.model;
+package br.com.paiva.hexagonal.domain.model;
 
-import br.com.paiva.hexagonal.application.exceptions.ValidationException;
+
+import br.com.paiva.hexagonal.exceptions.ValidationException;
 
 import java.util.UUID;
 
