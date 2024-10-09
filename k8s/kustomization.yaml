@@ -7,4 +7,4 @@ resources:
 images:
 - name: ms-service
   newName: wrpaiva2607/ms-service
-  newTag: cf9669ccb668eff440c451d4d6964fc386dd0718
+  newTag: f56e797243a12a17c6a5427136e95c93390f11ea
